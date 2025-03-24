@@ -1,0 +1,23 @@
+.lbl {
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  text-align: left;
+  padding: 10px;
+
+  &.left {
+    left: 0;
+  }
+
+  &.right {
+    right: 0;
+  }
+
+  .g {
+    color: #aaa;
+  }
+
+  .c {
+    color: #fa0;
+  }
+}

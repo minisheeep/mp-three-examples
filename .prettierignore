@@ -1,0 +1,6 @@
+dist
+node_modules
+*.md
+
+public
+**/*/__snapshot__/*.js

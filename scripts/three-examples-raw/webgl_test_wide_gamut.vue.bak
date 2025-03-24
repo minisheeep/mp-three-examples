@@ -1,0 +1,163 @@
+<template>
+  <ThreeExampleLayout title="webgl_test_wide_gamut">
+    <platform-canvas
+      type="webgl2"
+      canvas-id="webgl_test_wide_gamut"
+
+       use-in-example
+      @exampleInit="exampleInit"
+    >
+    </platform-canvas>
+    <template v-slot:info>
+      <view class="a-link" @tap="linkHandle" data-href="https://threejs.org">three.js</view>
+      - wide gamut test
+      <view class="a-br"></view>
+    </template>
+  </ThreeExampleLayout>
+</template>
+
+<script setup>
+import * as THREE from '@/package-three/setup';
+import {  linkHandle } from '@/helpers/example-helper';
+import ThreeExampleLayout from '@/components/ThreeExampleLayout.vue';
+import { hookLoaderLoadFn } from '@/helpers/analyzer';
+
+//for analysis
+hookLoaderLoadFn([]);
+
+const exampleInit = (({ window, canvas, GUI, Stats, needToDispose, useFrame }) => {
+    let camera, renderer, loader;
+    let sceneL, sceneR, textureL, textureR;
+
+    let sliderPos = window.innerWidth / 2;
+
+    const ctx = canvas.getContext('webgl2');
+    const oldColorSpace = ctx.drawingBufferColorSpace;
+    console.log(oldColorSpace, 'drawingBufferColorSpace' in ctx);
+    // deepscan-disable-line SAME_OPERAND_VALUE
+
+    // const slider = document.querySelector('.slider');
+
+    const isP3Context = (() => {
+      if ((!'drawingBufferColorSpace') in ctx) return false;
+      try {
+        ctx.drawingBufferColorSpace = THREE.DisplayP3ColorSpace;
+        return ctx.drawingBufferColorSpace === THREE.DisplayP3ColorSpace;
+      } catch (e) {
+        return false;
+      } finally {
+        ctx.drawingBufferColorSpace = oldColorSpace;
+      }
+    })();
+    console.log(isP3Context);
+    if (isP3Context) {
+      THREE.ColorManagement.workingColorSpace = THREE.LinearDisplayP3ColorSpace;
+    }
+
+    init();
+
+    function init() {
+      sceneL = new THREE.Scene();
+      sceneR = new THREE.Scene();
+
+      camera = new THREE.PerspectiveCamera(35, window.innerWidth / window.innerHeight, 0.1, 100);
+      camera.position.z = 6;
+
+      loader = new THREE.TextureLoader();
+
+      initTextures();
+      // initSlider();
+
+      renderer = new THREE.WebGLRenderer({ antialias: true, canvas });
+      renderer.setPixelRatio(window.devicePixelRatio);
+      renderer.setSize(window.innerWidth, window.innerHeight);
+      renderer.setAnimationLoop(animate);
+      renderer.setScissorTest(true);
+      if (isP3Context && window.matchMedia('( color-gamut: p3 )').matches) {
+        renderer.outputColorSpace = THREE.DisplayP3ColorSpace;
+      }
+
+      window.addEventListener('resize', onWindowResize);
+      window.matchMedia('( color-gamut: p3 )').addEventListener('change', onGamutChange);
+    }
+
+    async function initTextures() {
+      const path = 'textures/wide_gamut/logo_{colorSpace}.png';
+
+      textureL = await loader.loadAsync(path.replace('{colorSpace}', 'srgb'));
+      textureR = await loader.loadAsync(path.replace('{colorSpace}', 'p3'));
+
+      textureL.colorSpace = THREE.SRGBColorSpace;
+      textureR.colorSpace = THREE.DisplayP3ColorSpace;
+
+      sceneL.background = THREE.TextureUtils.contain(
+        textureL,
+        window.innerWidth / window.innerHeight
+      );
+      sceneR.background = THREE.TextureUtils.contain(
+        textureR,
+        window.innerWidth / window.innerHeight
+      );
+    }
+
+    function initSlider() {
+      function onPointerDown() {
+        if (event.isPrimary === false) return;
+
+        window.addEventListener('pointermove', onPointerMove);
+        window.addEventListener('pointerup', onPointerUp);
+      }
+
+      function onPointerUp() {
+        window.removeEventListener('pointermove', onPointerMove);
+        window.removeEventListener('pointerup', onPointerUp);
+      }
+
+      function onPointerMove(e) {
+        if (event.isPrimary === false) return;
+
+        updateSlider(e.pageX);
+      }
+
+      updateSlider(sliderPos);
+
+      slider.style.touchAction = 'none'; // disable touch scroll
+      slider.addEventListener('pointerdown', onPointerDown);
+    }
+
+    function updateSlider(offset) {
+      sliderPos = Math.max(10, Math.min(window.innerWidth - 10, offset));
+
+      slider.style.left = sliderPos - slider.offsetWidth / 2 + 'px';
+    }
+
+    function onWindowResize() {
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+
+      renderer.setSize(window.innerWidth, window.innerHeight);
+
+      THREE.TextureUtils.contain(sceneL.background, window.innerWidth / window.innerHeight);
+      THREE.TextureUtils.contain(sceneR.background, window.innerWidth / window.innerHeight);
+
+      updateSlider(sliderPos);
+    }
+
+    function onGamutChange({ matches }) {
+      renderer.outputColorSpace =
+        isP3Context && matches ? THREE.DisplayP3ColorSpace : THREE.SRGBColorSpace;
+
+      textureL.needsUpdate = true;
+      textureR.needsUpdate = true;
+    }
+
+    function animate() {
+      renderer.setScissor(0, 0, sliderPos, window.innerHeight);
+      renderer.render(sceneL, camera);
+
+      renderer.setScissor(sliderPos, 0, window.innerWidth, window.innerHeight);
+      renderer.render(sceneR, camera);
+    }
+  }
+);
+</script>

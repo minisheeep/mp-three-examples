@@ -1,0 +1,119 @@
+{
+  "webgl_worker_offscreencanvas": {
+    "primaryColor": "#9a9a9a",
+    "canView": false,
+    "blockReason": "不支持将上屏的 Canvas 绘制权限移交给 Worker"
+  },
+  "webgl_test_wide_gamut": {
+    "primaryColor": "#fb0404",
+    "canView": false,
+    "blockReason": "不支持 display-p3"
+  },
+  "webgl_multiple_elements": {
+    "primaryColor": "#f1f1f1",
+    "canView": true
+  },
+  "webgl_multiple_elements_text": {
+    "primaryColor": "#fafafa",
+    "canView": false,
+    "blockReason": "小程序不支持 math 等标签"
+  },
+  "webgl_morphtargets_webcam": {
+    "primaryColor": "#646464",
+    "canView": false,
+    "blockReason": "暂不支持 @mediapipe/tasks-vision"
+  },
+  "webgl_materials_texture_canvas": {
+    "primaryColor": "#040404",
+    "canView": true
+  },
+  "webgl_loader_tilt": {
+    "primaryColor": "#3d3cd5",
+    "canView": true
+  },
+  "webgl_loader_pdb": {
+    "primaryColor": "#040404",
+    "canView": false,
+    "blockReason": "暂不支持 CSS2DRenderer"
+  },
+  "webgl_loader_mmd_pose": {
+    "primaryColor": "#269092",
+    "canView": true,
+    "blockReason": "polyfill 的 TextDecoder 只支持 utf-8 编码"
+  },
+  "webgl_loader_mmd_audio": {
+    "primaryColor": "#fbfbfb",
+    "canView": true
+  },
+  "webgl_loader_mmd": {
+    "primaryColor": "#fafafa",
+    "canView": true
+  },
+  "webgl_loader_imagebitmap": {
+    "primaryColor": "#08080a",
+    "canView": false,
+    "blockReason": "小程序不支持 createImageBitmap"
+  },
+  "webgl_loader_ifc": {
+    "primaryColor": "#8fbacd",
+    "canView": false,
+    "blockReason": "计划后续支持 web-ifc"
+  },
+  "webgl_loader_3mf_materials": {
+    "primaryColor": "#e7e7e7",
+    "canView": false,
+    "blockReason": "非原生 DomParser 和 TextDecoder 会导致性能问题"
+  },
+  "webgl_loader_amf": {
+    "primaryColor": "#9a9a9a",
+    "canView": false,
+    "blockReason": "polyfill 的 TextDecoder 只支持 utf-8 编码 "
+  },
+  "webgl_effects_ascii": {
+    "primaryColor": "#050505",
+    "canView": false,
+    "blockReason": "暂不支持"
+  },
+  "webgl_camera_logarithmicdepthbuffer": {
+    "primaryColor": "#868b99",
+    "canView": true
+  },
+  "webgl_camera_cinematic": {
+    "primaryColor": "#3d5a5e",
+    "canView": false
+  },
+  "webgl_buffergeometry_compression": {
+    "primaryColor": "#dfdfdf",
+    "canView": true
+  },
+  "svg_sandbox": {
+    "primaryColor": "#f40a07",
+    "canView": false,
+    "blockReason": "不支持 Svg Renderer"
+  },
+  "svg_lines": {
+    "primaryColor": "#040404",
+    "canView": false,
+    "blockReason": "不支持 svg Renderer"
+  },
+  "physics_rapier_instancing": {
+    "primaryColor": "#61605f",
+    "canView": false,
+    "blockReason": "计划后续支持 @dimforge/rapier3d"
+  },
+  "physics_jolt_instancing": {
+    "primaryColor": "#626161",
+    "canView": false,
+    "blockReason": "计划后续支持 jolt-physics"
+  },
+  "misc_controls_pointerlock": {
+    "primaryColor": "#4f5568",
+    "canView": false,
+    "blockReason": "移动端没有锁定指针相关事件"
+  },
+  "misc_controls_fly": {
+    "primaryColor": "#0a0c0f",
+    "canView": false,
+    "blockReason": "暂不支持 webgpu"
+  }
+}

@@ -1,0 +1,1238 @@
+{
+  "games_fps": {
+    "canView": true,
+    "primaryColor": "#184a70"
+  },
+  "misc_animation_groups": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "misc_animation_keys": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "misc_boxselection": {
+    "canView": true,
+    "primaryColor": "#f1f1f1"
+  },
+  "misc_controls_arcball": {
+    "canView": true,
+    "primaryColor": "#262645"
+  },
+  "misc_controls_drag": {
+    "canView": true,
+    "primaryColor": "#efefef"
+  },
+  "misc_controls_map": {
+    "canView": true,
+    "primaryColor": "#c8c8c9"
+  },
+  "misc_controls_orbit": {
+    "canView": true,
+    "primaryColor": "#cccccc"
+  },
+  "misc_controls_trackball": {
+    "canView": true,
+    "primaryColor": "#cdcdcd"
+  },
+  "misc_controls_transform": {
+    "canView": true,
+    "primaryColor": "#050505"
+  },
+  "misc_exporter_draco": {
+    "canView": true,
+    "primaryColor": "#a7a7a7",
+    "blockReason": "暂不支持 draco encoder"
+  },
+  "misc_exporter_exr": {
+    "canView": true,
+    "primaryColor": "#c1a271",
+    "blockReason": "某些 three 版本能成功生成"
+  },
+  "misc_exporter_gltf": {
+    "canView": true,
+    "primaryColor": "#c18f74"
+  },
+  "misc_exporter_obj": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "misc_exporter_ply": {
+    "canView": true,
+    "primaryColor": "#f3f3f3"
+  },
+  "misc_exporter_stl": {
+    "canView": true,
+    "primaryColor": "#e8e8e8"
+  },
+  "misc_exporter_usdz": {
+    "canView": true,
+    "primaryColor": "#f1f1f1"
+  },
+  "misc_lookat": {
+    "canView": true,
+    "primaryColor": "#4255d2"
+  },
+  "misc_uv_tests": {
+    "canView": true,
+    "primaryColor": "#fafafa"
+  },
+  "physics_ammo_break": {
+    "canView": true,
+    "primaryColor": "#dde8ef"
+  },
+  "physics_ammo_cloth": {
+    "canView": true,
+    "primaryColor": "#c7d0d6"
+  },
+  "physics_ammo_instancing": {
+    "canView": true,
+    "primaryColor": "#605d5d"
+  },
+  "physics_ammo_rope": {
+    "canView": true,
+    "primaryColor": "#d1dbe1"
+  },
+  "physics_ammo_terrain": {
+    "canView": true,
+    "primaryColor": "#bdc7cd"
+  },
+  "physics_ammo_volume": {
+    "canView": true,
+    "primaryColor": "#d2dbe2"
+  },
+  "webaudio_orientation": {
+    "canView": true,
+    "primaryColor": "#f0f1ef"
+  },
+  "webaudio_sandbox": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "webaudio_timing": {
+    "canView": true,
+    "primaryColor": "#3b63a3"
+  },
+  "webaudio_visualizer": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "webgl_animation_keyframes": {
+    "canView": true,
+    "primaryColor": "#beded6"
+  },
+  "webgl_animation_multiple": {
+    "canView": true,
+    "primaryColor": "#f5f5f5"
+  },
+  "webgl_animation_skinning_additive_blending": {
+    "canView": true,
+    "primaryColor": "#f8f8f7"
+  },
+  "webgl_animation_skinning_blending": {
+    "canView": true,
+    "primaryColor": "#f7f7f6"
+  },
+  "webgl_animation_skinning_ik": {
+    "canView": true,
+    "primaryColor": "#b1aa96"
+  },
+  "webgl_animation_skinning_morph": {
+    "canView": true,
+    "primaryColor": "#f0f0f0"
+  },
+  "webgl_buffergeometry_attributes_integer": {
+    "canView": true,
+    "primaryColor": "#878885"
+  },
+  "webgl_buffergeometry_attributes_none": {
+    "canView": true,
+    "primaryColor": "#0a0b0c"
+  },
+  "webgl_buffergeometry_custom_attributes_particles": {
+    "canView": true,
+    "primaryColor": "#cdb9bf"
+  },
+  "webgl_buffergeometry_drawrange": {
+    "canView": true,
+    "primaryColor": "#060606"
+  },
+  "webgl_buffergeometry_glbufferattribute": {
+    "canView": true,
+    "primaryColor": "#070608"
+  },
+  "webgl_buffergeometry_indexed": {
+    "canView": true,
+    "primaryColor": "#c37dfb"
+  },
+  "webgl_buffergeometry_instancing_billboards": {
+    "canView": true,
+    "primaryColor": "#d42b20"
+  },
+  "webgl_buffergeometry_instancing_interleaved": {
+    "canView": true,
+    "primaryColor": "#241d17"
+  },
+  "webgl_buffergeometry_instancing": {
+    "canView": true,
+    "primaryColor": "#b67272"
+  },
+  "webgl_buffergeometry_lines_indexed": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "webgl_buffergeometry_lines": {
+    "canView": true,
+    "primaryColor": "#050506"
+  },
+  "webgl_buffergeometry_points_interleaved": {
+    "canView": true,
+    "primaryColor": "#0c0c15"
+  },
+  "webgl_buffergeometry_points": {
+    "canView": true,
+    "primaryColor": "#0c0c15"
+  },
+  "webgl_buffergeometry_rawshader": {
+    "canView": true,
+    "primaryColor": "#141616"
+  },
+  "webgl_buffergeometry_selective_draw": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "webgl_buffergeometry_uint": {
+    "canView": true,
+    "primaryColor": "#6c7294"
+  },
+  "webgl_buffergeometry": {
+    "canView": true,
+    "primaryColor": "#0a0b0d"
+  },
+  "webgl_camera_array": {
+    "canView": true,
+    "primaryColor": "#0c0c61"
+  },
+  "webgl_camera": {
+    "canView": true,
+    "primaryColor": "#0e0e0e"
+  },
+  "webgl_clipculldistance": {
+    "canView": true,
+    "primaryColor": "#040404",
+    "blockReason": "需要 webgl_clipculldistance 支持"
+  },
+  "webgl_clipping_advanced": {
+    "canView": true,
+    "primaryColor": "#a1adaf"
+  },
+  "webgl_clipping_intersection": {
+    "canView": true,
+    "primaryColor": "#449ec5"
+  },
+  "webgl_clipping_stencil": {
+    "canView": true,
+    "primaryColor": "#243334"
+  },
+  "webgl_clipping": {
+    "canView": true,
+    "primaryColor": "#050604"
+  },
+  "webgl_custom_attributes_lines": {
+    "canView": true,
+    "primaryColor": "#040505"
+  },
+  "webgl_custom_attributes_points": {
+    "canView": true,
+    "primaryColor": "#37d1e5"
+  },
+  "webgl_custom_attributes_points2": {
+    "canView": true,
+    "primaryColor": "#080604"
+  },
+  "webgl_custom_attributes_points3": {
+    "canView": true,
+    "primaryColor": "#704204"
+  },
+  "webgl_custom_attributes": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "webgl_decals": {
+    "canView": true,
+    "primaryColor": "#a36f62"
+  },
+  "webgl_depth_texture": {
+    "canView": true,
+    "primaryColor": "#e3e3e3"
+  },
+  "webgl_effects_anaglyph": {
+    "canView": true,
+    "primaryColor": "#404130"
+  },
+  "webgl_effects_parallaxbarrier": {
+    "canView": true,
+    "primaryColor": "#433e34"
+  },
+  "webgl_effects_peppersghost": {
+    "canView": true,
+    "primaryColor": "#040604"
+  },
+  "webgl_effects_stereo": {
+    "canView": true,
+    "primaryColor": "#4f504e"
+  },
+  "webgl_framebuffer_texture": {
+    "canView": true,
+    "primaryColor": "#050506"
+  },
+  "webgl_furnace_test": {
+    "canView": true,
+    "primaryColor": "#cccccc"
+  },
+  "webgl_geometries_parametric": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "webgl_geometries": {
+    "canView": true,
+    "primaryColor": "#040405"
+  },
+  "webgl_geometry_colors_lookuptable": {
+    "canView": true,
+    "primaryColor": "#fbfbfb"
+  },
+  "webgl_geometry_colors": {
+    "canView": true,
+    "primaryColor": "#fafafa"
+  },
+  "webgl_geometry_convex": {
+    "canView": true,
+    "primaryColor": "#9fa0a0"
+  },
+  "webgl_geometry_csg": {
+    "canView": true,
+    "primaryColor": "#fbe4ec"
+  },
+  "webgl_geometry_cube": {
+    "canView": true,
+    "primaryColor": "#6f5741"
+  },
+  "webgl_geometry_dynamic": {
+    "canView": true,
+    "primaryColor": "#a5c6f9"
+  },
+  "webgl_geometry_extrude_shapes": {
+    "canView": true,
+    "primaryColor": "#242323"
+  },
+  "webgl_geometry_extrude_splines": {
+    "canView": true,
+    "primaryColor": "#f3f3f3"
+  },
+  "webgl_geometry_minecraft": {
+    "canView": true,
+    "primaryColor": "#bbd3e3"
+  },
+  "webgl_geometry_nurbs": {
+    "canView": true,
+    "primaryColor": "#423f63"
+  },
+  "webgl_geometry_shapes": {
+    "canView": true,
+    "primaryColor": "#f1eff0"
+  },
+  "webgl_geometry_spline_editor": {
+    "canView": true,
+    "primaryColor": "#eeeeee"
+  },
+  "webgl_geometry_teapot": {
+    "canView": true,
+    "primaryColor": "#dddddd"
+  },
+  "webgl_geometry_terrain_raycast": {
+    "canView": true,
+    "primaryColor": "#8f492e"
+  },
+  "webgl_geometry_terrain": {
+    "canView": true,
+    "primaryColor": "#e5bfa0"
+  },
+  "webgl_geometry_text_shapes": {
+    "canView": true,
+    "primaryColor": "#f2f2f2"
+  },
+  "webgl_geometry_text_stroke": {
+    "canView": true,
+    "primaryColor": "#f2f2f2"
+  },
+  "webgl_geometry_text": {
+    "canView": true,
+    "primaryColor": "#0e0e0e"
+  },
+  "webgl_gpgpu_birds_gltf": {
+    "canView": true,
+    "primaryColor": "#caf9fa"
+  },
+  "webgl_gpgpu_birds": {
+    "canView": true,
+    "primaryColor": "#fbfbfb"
+  },
+  "webgl_gpgpu_protoplanet": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "webgl_gpgpu_water": {
+    "canView": true,
+    "primaryColor": "#073da4"
+  },
+  "webgl_helpers": {
+    "canView": true,
+    "primaryColor": "#0a0a0b"
+  },
+  "webgl_instancing_dynamic": {
+    "canView": true,
+    "primaryColor": "#ac75d8"
+  },
+  "webgl_instancing_morph": {
+    "canView": true,
+    "primaryColor": "#3d5f29"
+  },
+  "webgl_instancing_performance": {
+    "canView": true,
+    "primaryColor": "#457fc5"
+  },
+  "webgl_instancing_raycast": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "webgl_instancing_scatter": {
+    "canView": true,
+    "primaryColor": "#e3946c"
+  },
+  "webgl_interactive_buffergeometry": {
+    "canView": true,
+    "primaryColor": "#090b0f"
+  },
+  "webgl_interactive_cubes_gpu": {
+    "canView": true,
+    "primaryColor": "#414f38",
+    "blockReason": "gl.getBufferSubData 有报错"
+  },
+  "webgl_interactive_cubes_ortho": {
+    "canView": true,
+    "primaryColor": "#efefef"
+  },
+  "webgl_interactive_cubes": {
+    "canView": true,
+    "primaryColor": "#ebe0dc"
+  },
+  "webgl_interactive_lines": {
+    "canView": true,
+    "primaryColor": "#f1f2f1"
+  },
+  "webgl_interactive_points": {
+    "canView": true,
+    "primaryColor": "#ee5304"
+  },
+  "webgl_interactive_raycasting_points": {
+    "canView": true,
+    "primaryColor": "#050a07"
+  },
+  "webgl_interactive_voxelpainter": {
+    "canView": true,
+    "primaryColor": "#f2f2f2"
+  },
+  "webgl_layers": {
+    "canView": true,
+    "primaryColor": "#f3f2f2"
+  },
+  "webgl_lensflares": {
+    "canView": true,
+    "primaryColor": "#d19745"
+  },
+  "webgl_lightprobe_cubecamera": {
+    "canView": true,
+    "primaryColor": "#453f35"
+  },
+  "webgl_lightprobe": {
+    "canView": true,
+    "primaryColor": "#443f35"
+  },
+  "webgl_lights_hemisphere": {
+    "canView": true,
+    "primaryColor": "#e6e8e4"
+  },
+  "webgl_lights_physical": {
+    "canView": true,
+    "primaryColor": "#22190c"
+  },
+  "webgl_lights_pointlights": {
+    "canView": true,
+    "primaryColor": "#070405"
+  },
+  "webgl_lights_rectarealight": {
+    "canView": true,
+    "primaryColor": "#ed2512"
+  },
+  "webgl_lights_spotlight": {
+    "canView": true,
+    "primaryColor": "#1f1f1d"
+  },
+  "webgl_lights_spotlights": {
+    "canView": true,
+    "primaryColor": "#141313"
+  },
+  "webgl_lines_colors": {
+    "canView": true,
+    "primaryColor": "#040405"
+  },
+  "webgl_lines_dashed": {
+    "canView": true,
+    "primaryColor": "#131313"
+  },
+  "webgl_lines_fat_raycasting": {
+    "canView": true,
+    "primaryColor": "#040404",
+    "blockReason": "待排查"
+  },
+  "webgl_lines_fat_wireframe": {
+    "canView": true,
+    "primaryColor": "#3c76e9"
+  },
+  "webgl_lines_fat": {
+    "canView": true,
+    "primaryColor": "#050505"
+  },
+  "webgl_loader_3dm": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "webgl_loader_3ds": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "webgl_loader_3mf": {
+    "canView": true,
+    "primaryColor": "#c6c6c6"
+  },
+  "webgl_loader_bvh": {
+    "canView": true,
+    "primaryColor": "#e9e9e9"
+  },
+  "webgl_loader_collada_kinematics": {
+    "canView": true,
+    "primaryColor": "#050505"
+  },
+  "webgl_loader_collada_skinning": {
+    "canView": true,
+    "primaryColor": "#050505"
+  },
+  "webgl_loader_collada": {
+    "canView": true,
+    "primaryColor": "#040504"
+  },
+  "webgl_loader_draco": {
+    "canView": true,
+    "primaryColor": "#6d6060"
+  },
+  "webgl_loader_fbx_nurbs": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "webgl_loader_fbx": {
+    "canView": true,
+    "primaryColor": "#c6c6c6"
+  },
+  "webgl_loader_gcode": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "webgl_loader_gltf_anisotropy": {
+    "canView": true,
+    "primaryColor": "#c1c0d8"
+  },
+  "webgl_loader_gltf_avif": {
+    "canView": true,
+    "primaryColor": "#f2ebda"
+  },
+  "webgl_loader_gltf_compressed": {
+    "canView": true,
+    "primaryColor": "#bcbbb9"
+  },
+  "webgl_loader_gltf_dispersion": {
+    "canView": true,
+    "primaryColor": "#c3c3c3"
+  },
+  "webgl_loader_gltf_instancing": {
+    "canView": true,
+    "primaryColor": "#241d16"
+  },
+  "webgl_loader_gltf_iridescence": {
+    "canView": true,
+    "primaryColor": "#423532"
+  },
+  "webgl_loader_gltf_sheen": {
+    "canView": true,
+    "primaryColor": "#bdbab9"
+  },
+  "webgl_loader_gltf_transmission": {
+    "canView": true,
+    "primaryColor": "#a99591"
+  },
+  "webgl_loader_gltf_variants": {
+    "canView": true,
+    "primaryColor": "#a19c8e"
+  },
+  "webgl_loader_gltf": {
+    "canView": true,
+    "primaryColor": "#988e9e"
+  },
+  "webgl_loader_kmz": {
+    "canView": true,
+    "primaryColor": "#9a9a9a"
+  },
+  "webgl_loader_ldraw": {
+    "canView": true,
+    "primaryColor": "#dceaea"
+  },
+  "webgl_loader_lwo": {
+    "canView": true,
+    "primaryColor": "#9fa0a0"
+  },
+  "webgl_loader_md2_control": {
+    "canView": true,
+    "primaryColor": "#7da631"
+  },
+  "webgl_loader_md2": {
+    "canView": true,
+    "primaryColor": "#8ab835"
+  },
+  "webgl_loader_mdd": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "webgl_loader_nrrd": {
+    "canView": true,
+    "primaryColor": "#050504"
+  },
+  "webgl_loader_obj_mtl": {
+    "canView": true,
+    "primaryColor": "#050505"
+  },
+  "webgl_loader_obj": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "webgl_loader_pcd": {
+    "canView": true,
+    "primaryColor": "#bababa"
+  },
+  "webgl_loader_ply": {
+    "canView": true,
+    "primaryColor": "#73635b"
+  },
+  "webgl_loader_stl": {
+    "canView": true,
+    "primaryColor": "#ebd7b3"
+  },
+  "webgl_loader_svg": {
+    "canView": true,
+    "primaryColor": "#b9b8b7"
+  },
+  "webgl_loader_texture_dds": {
+    "canView": true,
+    "primaryColor": "#060605"
+  },
+  "webgl_loader_texture_exr": {
+    "canView": true,
+    "primaryColor": "#060504"
+  },
+  "webgl_loader_texture_hdr": {
+    "canView": true,
+    "primaryColor": "#060504"
+  },
+  "webgl_loader_texture_ktx": {
+    "canView": true,
+    "primaryColor": "#070605"
+  },
+  "webgl_loader_texture_ktx2": {
+    "canView": true,
+    "primaryColor": "#232423"
+  },
+  "webgl_loader_texture_lottie": {
+    "canView": true,
+    "primaryColor": "#151515"
+  },
+  "webgl_loader_texture_pvrtc": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "webgl_loader_texture_rgbm": {
+    "canView": true,
+    "primaryColor": "#060504"
+  },
+  "webgl_loader_texture_tga": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "webgl_loader_texture_tiff": {
+    "canView": true,
+    "primaryColor": "#050505"
+  },
+  "webgl_loader_texture_ultrahdr": {
+    "canView": true,
+    "primaryColor": "#64582d"
+  },
+  "webgl_loader_ttf": {
+    "canView": true,
+    "primaryColor": "#0d0d0d"
+  },
+  "webgl_loader_usdz": {
+    "canView": true,
+    "primaryColor": "#cac3c5"
+  },
+  "webgl_loader_vox": {
+    "canView": true,
+    "primaryColor": "#050505"
+  },
+  "webgl_loader_vrml": {
+    "canView": true,
+    "primaryColor": "#507a5d"
+  },
+  "webgl_loader_vtk": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "webgl_loader_xyz": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "webgl_lod": {
+    "canView": true,
+    "primaryColor": "#ac6a65"
+  },
+  "webgl_marchingcubes": {
+    "canView": true,
+    "primaryColor": "#060404"
+  },
+  "webgl_materials_alphahash": {
+    "canView": true,
+    "primaryColor": "#ac957a"
+  },
+  "webgl_materials_blending_custom": {
+    "canView": true,
+    "primaryColor": "#c6c4be"
+  },
+  "webgl_materials_blending": {
+    "canView": true,
+    "primaryColor": "#c2c0c0"
+  },
+  "webgl_materials_bumpmap": {
+    "canView": true,
+    "primaryColor": "#aa7849"
+  },
+  "webgl_materials_car": {
+    "canView": true,
+    "primaryColor": "#343434"
+  },
+  "webgl_materials_channels": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "webgl_materials_cubemap_dynamic": {
+    "canView": true,
+    "primaryColor": "#909ea1"
+  },
+  "webgl_materials_cubemap_mipmaps": {
+    "canView": true,
+    "primaryColor": "#050504"
+  },
+  "webgl_materials_cubemap_refraction": {
+    "canView": true,
+    "primaryColor": "#4a4a44"
+  },
+  "webgl_materials_cubemap_render_to_mipmaps": {
+    "canView": true,
+    "primaryColor": "#050905"
+  },
+  "webgl_materials_cubemap": {
+    "canView": true,
+    "primaryColor": "#e1b021"
+  },
+  "webgl_materials_displacementmap": {
+    "canView": true,
+    "primaryColor": "#070507"
+  },
+  "webgl_materials_envmaps_exr": {
+    "canView": true,
+    "primaryColor": "#6b6252"
+  },
+  "webgl_materials_envmaps_groundprojected": {
+    "canView": true,
+    "primaryColor": "#a3a09a"
+  },
+  "webgl_materials_envmaps_hdr": {
+    "canView": true,
+    "primaryColor": "#45392e"
+  },
+  "webgl_materials_envmaps": {
+    "canView": true,
+    "primaryColor": "#283132"
+  },
+  "webgl_materials_matcap": {
+    "canView": true,
+    "primaryColor": "#b1b1b1"
+  },
+  "webgl_materials_modified": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "webgl_materials_normalmap_object_space": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "webgl_materials_normalmap": {
+    "canView": true,
+    "primaryColor": "#252424"
+  },
+  "webgl_materials_physical_clearcoat": {
+    "canView": true,
+    "primaryColor": "#3c312b"
+  },
+  "webgl_materials_physical_transmission_alpha": {
+    "canView": true,
+    "primaryColor": "#8a7d7a"
+  },
+  "webgl_materials_physical_transmission": {
+    "canView": true,
+    "primaryColor": "#493b40"
+  },
+  "webgl_materials_subsurface_scattering": {
+    "canView": true,
+    "primaryColor": "#cd8a44"
+  },
+  "webgl_materials_texture_anisotropy": {
+    "canView": true,
+    "primaryColor": "#886b53"
+  },
+  "webgl_materials_texture_filters": {
+    "canView": true,
+    "primaryColor": "#1c1611"
+  },
+  "webgl_materials_texture_manualmipmap": {
+    "canView": true,
+    "primaryColor": "#deb983"
+  },
+  "webgl_materials_texture_partialupdate": {
+    "canView": true,
+    "primaryColor": "#aeafb5"
+  },
+  "webgl_materials_texture_rotation": {
+    "canView": true,
+    "primaryColor": "#060506"
+  },
+  "webgl_materials_toon": {
+    "canView": true,
+    "primaryColor": "#44448a"
+  },
+  "webgl_materials_video_webcam": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "webgl_materials_video": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "webgl_materials_wireframe": {
+    "canView": true,
+    "primaryColor": "#acabc2",
+    "blockReason": "启用 gl.SAMPLE_ALPHA_TO_COVERAGE 无反应"
+  },
+  "webgl_math_obb": {
+    "canView": true,
+    "primaryColor": "#fafbf9"
+  },
+  "webgl_math_orientation_transform": {
+    "canView": true,
+    "primaryColor": "#070707"
+  },
+  "webgl_mesh_batch": {
+    "canView": true,
+    "primaryColor": "#faf8f9"
+  },
+  "webgl_mirror": {
+    "canView": true,
+    "primaryColor": "#b9bbba"
+  },
+  "webgl_modifier_curve_instanced": {
+    "canView": true,
+    "primaryColor": "#050707"
+  },
+  "webgl_modifier_curve": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "webgl_modifier_edgesplit": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "webgl_modifier_simplifier": {
+    "canView": true,
+    "primaryColor": "#b1b1c1"
+  },
+  "webgl_modifier_subdivision": {
+    "canView": true,
+    "primaryColor": "#040505"
+  },
+  "webgl_modifier_tessellation": {
+    "canView": true,
+    "primaryColor": "#050505"
+  },
+  "webgl_morphtargets_face": {
+    "canView": true,
+    "primaryColor": "#c6c6c6"
+  },
+  "webgl_morphtargets_horse": {
+    "canView": true,
+    "primaryColor": "#f3f3f3"
+  },
+  "webgl_morphtargets_sphere": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "webgl_morphtargets": {
+    "canView": true,
+    "primaryColor": "#8cbbd3"
+  },
+  "webgl_multiple_rendertargets": {
+    "canView": true,
+    "primaryColor": "#232424"
+  },
+  "webgl_multiple_scenes_comparison": {
+    "canView": true,
+    "primaryColor": "#8ebcd3"
+  },
+  "webgl_multiple_views": {
+    "canView": true,
+    "primaryColor": "#8e91a4"
+  },
+  "webgl_multisampled_renderbuffers": {
+    "canView": true,
+    "primaryColor": "#f7dada"
+  },
+  "webgl_panorama_cube": {
+    "canView": true,
+    "primaryColor": "#b7b1ac"
+  },
+  "webgl_panorama_equirectangular": {
+    "canView": true,
+    "primaryColor": "#352e24"
+  },
+  "webgl_performance": {
+    "canView": true,
+    "primaryColor": "#050404",
+    "blockReason": "Canvas.createImage 需要 WebP 支持"
+  },
+  "webgl_pmrem_test": {
+    "canView": true,
+    "primaryColor": "#050505"
+  },
+  "webgl_points_billboards": {
+    "canView": true,
+    "primaryColor": "#080606"
+  },
+  "webgl_points_dynamic": {
+    "canView": true,
+    "primaryColor": "#090608"
+  },
+  "webgl_points_sprites": {
+    "canView": true,
+    "primaryColor": "#0d0a0a"
+  },
+  "webgl_points_waves": {
+    "canView": true,
+    "primaryColor": "#f8f8f8"
+  },
+  "webgl_portal": {
+    "canView": true,
+    "primaryColor": "#ca9dca"
+  },
+  "webgl_postprocessing_3dlut": {
+    "canView": true,
+    "primaryColor": "#c9b6b4"
+  },
+  "webgl_postprocessing_advanced": {
+    "canView": true,
+    "primaryColor": "#bc9f89"
+  },
+  "webgl_postprocessing_afterimage": {
+    "canView": true,
+    "primaryColor": "#bbbbfc"
+  },
+  "webgl_postprocessing_backgrounds": {
+    "canView": true,
+    "primaryColor": "#413d34"
+  },
+  "webgl_postprocessing_dof": {
+    "canView": true,
+    "primaryColor": "#050b10"
+  },
+  "webgl_postprocessing_dof2": {
+    "canView": true,
+    "primaryColor": "#426077"
+  },
+  "webgl_postprocessing_fxaa": {
+    "canView": true,
+    "primaryColor": "#fbfafa"
+  },
+  "webgl_postprocessing_glitch": {
+    "canView": true,
+    "primaryColor": "#716f6f"
+  },
+  "webgl_postprocessing_godrays": {
+    "canView": true,
+    "primaryColor": "#b4b4b4"
+  },
+  "webgl_postprocessing_gtao": {
+    "canView": true,
+    "primaryColor": "#f8f8f8"
+  },
+  "webgl_postprocessing_masking": {
+    "canView": true,
+    "primaryColor": "#f1f0ee"
+  },
+  "webgl_postprocessing_material_ao": {
+    "canView": true,
+    "primaryColor": "#c9dacc"
+  },
+  "webgl_postprocessing_outline": {
+    "canView": true,
+    "primaryColor": "#121810"
+  },
+  "webgl_postprocessing_pixel": {
+    "canView": true,
+    "primaryColor": "#8e968b"
+  },
+  "webgl_postprocessing_procedural": {
+    "canView": true,
+    "primaryColor": "#7e7a7c"
+  },
+  "webgl_postprocessing_rgb_halftone": {
+    "canView": true,
+    "primaryColor": "#efd943"
+  },
+  "webgl_postprocessing_sao": {
+    "canView": true,
+    "primaryColor": "#040505"
+  },
+  "webgl_postprocessing_smaa": {
+    "canView": true,
+    "primaryColor": "#b88c73"
+  },
+  "webgl_postprocessing_sobel": {
+    "canView": true,
+    "primaryColor": "#090909"
+  },
+  "webgl_postprocessing_ssaa": {
+    "canView": true,
+    "primaryColor": "#b5565a"
+  },
+  "webgl_postprocessing_ssao": {
+    "canView": true,
+    "primaryColor": "#aea89d"
+  },
+  "webgl_postprocessing_ssr": {
+    "canView": true,
+    "primaryColor": "#7d7474"
+  },
+  "webgl_postprocessing_taa": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "webgl_postprocessing_transition": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "webgl_postprocessing_unreal_bloom_selective": {
+    "canView": true,
+    "primaryColor": "#1d2825"
+  },
+  "webgl_postprocessing_unreal_bloom": {
+    "canView": true,
+    "primaryColor": "#24110b"
+  },
+  "webgl_postprocessing": {
+    "canView": true,
+    "primaryColor": "#050606"
+  },
+  "webgl_raycaster_bvh": {
+    "canView": true,
+    "primaryColor": "#eaeaea"
+  },
+  "webgl_raycaster_sprite": {
+    "canView": true,
+    "primaryColor": "#fbfbfb"
+  },
+  "webgl_raycaster_texture": {
+    "canView": true,
+    "primaryColor": "#4e526f"
+  },
+  "webgl_raymarching_reflect": {
+    "canView": true,
+    "primaryColor": "#0a0d08"
+  },
+  "webgl_read_float_buffer": {
+    "canView": true,
+    "primaryColor": "#0b1a2e"
+  },
+  "webgl_refraction": {
+    "canView": true,
+    "primaryColor": "#9696cc"
+  },
+  "webgl_renderer_pathtracer": {
+    "canView": true,
+    "primaryColor": "#cfcbcd",
+    "blockReason": "性能需求过高，基本不可用"
+  },
+  "webgl_rendertarget_texture2darray": {
+    "canView": true,
+    "primaryColor": "#060606"
+  },
+  "webgl_rtt": {
+    "canView": true,
+    "primaryColor": "#075533"
+  },
+  "webgl_shader_lava": {
+    "canView": true,
+    "primaryColor": "#050404"
+  },
+  "webgl_shader": {
+    "canView": true,
+    "primaryColor": "#312339"
+  },
+  "webgl_shaders_ocean": {
+    "canView": true,
+    "primaryColor": "#939692"
+  },
+  "webgl_shaders_sky": {
+    "canView": true,
+    "primaryColor": "#a1908b"
+  },
+  "webgl_shadow_contact": {
+    "canView": true,
+    "primaryColor": "#fafafa"
+  },
+  "webgl_shadowmap_csm": {
+    "canView": true,
+    "primaryColor": "#2e3644"
+  },
+  "webgl_shadowmap_pcss": {
+    "canView": true,
+    "primaryColor": "#a0a7ab"
+  },
+  "webgl_shadowmap_performance": {
+    "canView": true,
+    "primaryColor": "#6a442c"
+  },
+  "webgl_shadowmap_pointlight": {
+    "canView": true,
+    "primaryColor": "#070919"
+  },
+  "webgl_shadowmap_progressive": {
+    "canView": true,
+    "primaryColor": "#969696"
+  },
+  "webgl_shadowmap_viewer": {
+    "canView": true,
+    "primaryColor": "#a5b0ae"
+  },
+  "webgl_shadowmap_vsm": {
+    "canView": true,
+    "primaryColor": "#343362"
+  },
+  "webgl_shadowmap": {
+    "canView": true,
+    "primaryColor": "#5d442b"
+  },
+  "webgl_shadowmesh": {
+    "canView": true,
+    "primaryColor": "#047304"
+  },
+  "webgl_simple_gi": {
+    "canView": true,
+    "primaryColor": "#060e07"
+  },
+  "webgl_sprites": {
+    "canView": true,
+    "primaryColor": "#e84723"
+  },
+  "webgl_test_memory": {
+    "canView": true,
+    "primaryColor": "#fbfbfb"
+  },
+  "webgl_test_memory2": {
+    "canView": true,
+    "primaryColor": "#fbfbfb"
+  },
+  "webgl_texture2darray_compressed": {
+    "canView": true,
+    "primaryColor": "#c25f5d"
+  },
+  "webgl_texture2darray_layerupdate": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "webgl_texture2darray": {
+    "canView": true,
+    "primaryColor": "#060606"
+  },
+  "webgl_texture3d_partialupdate": {
+    "canView": true,
+    "primaryColor": "#1568a4"
+  },
+  "webgl_texture3d": {
+    "canView": true,
+    "primaryColor": "#040404"
+  },
+  "webgl_tonemapping": {
+    "canView": true,
+    "primaryColor": "#7f848d"
+  },
+  "webgl_ubo_arrays": {
+    "canView": true,
+    "primaryColor": "#0a0e0e"
+  },
+  "webgl_ubo": {
+    "canView": true,
+    "primaryColor": "#070706"
+  },
+  "webgl_video_kinect": {
+    "canView": true,
+    "primaryColor": "#040911"
+  },
+  "webgl_video_panorama_equirectangular": {
+    "canView": true,
+    "primaryColor": "#636073"
+  },
+  "webgl_volume_cloud": {
+    "canView": true,
+    "primaryColor": "#a3b3c7"
+  },
+  "webgl_volume_instancing": {
+    "canView": true,
+    "primaryColor": "#1d1314"
+  },
+  "webgl_volume_perlin": {
+    "canView": true,
+    "primaryColor": "#040405"
+  },
+  "webgl_water_flowmap": {
+    "canView": true,
+    "primaryColor": "#727275"
+  },
+  "webgl_water": {
+    "canView": true,
+    "primaryColor": "#182111"
+  }
+}
