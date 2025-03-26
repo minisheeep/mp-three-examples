@@ -1,10 +1,14 @@
 {
   "name": "@minisheeep/mp-three-examples",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "three.js examples for mini-program",
   "author": "minisheep",
   "type": "module",
   "homepage": "https://www.minisheep.cn",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/minisheeep/mp-three-examples"
+  },
   "module": "./dist/official/index.js",
   "types": "./dist/official/index.d.ts",
   "publishConfig": {
@@ -30,8 +34,7 @@
     "build": "vite build",
     "lint": "eslint src/**/* --fix",
     "format": "prettier --write ./src/**/*.{js,jsx,ts,tsx,vue}",
-    "prepublishOnly": "npm run build",
-    "publish": "pnpm publish"
+    "prepublishOnly": "npm run build"
   },
   "keywords": [],
   "license": "MIT",
