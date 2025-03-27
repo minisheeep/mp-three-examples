@@ -361,8 +361,6 @@ const exampleInfo = {
     }
 
     function initInput() {
-      const window = globalThis['window'];
-
       window.addEventListener('keydown', function (event) {
         switch (event.code) {
           // Q

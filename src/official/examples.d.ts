@@ -11,7 +11,6 @@ export interface OfficialExampleInfo extends MiniProgramMeta {
 }
 
 export interface LoadContext {
-  //为了减少官方代码的改动，实际上等同于 canvas
   window: EventTarget & { innerWidth: number; innerHeight: number; devicePixelRatio: number };
   /** HTMLCanvasElement */
   canvas: any;
