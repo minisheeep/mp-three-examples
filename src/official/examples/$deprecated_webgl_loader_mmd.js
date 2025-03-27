@@ -33,7 +33,15 @@ const exampleInfo = {
 
     const clock = new THREE.Clock();
 
-    Ammo.call({}).then(function (AmmoLib) {
+    Ammo.call(
+      {},
+      {
+        // 仅 web 环境需要这个，小程序会自动配置 wasm 地址
+        locateFile(path) {
+          return `https://cdn.jsdelivr.net/npm/three@0.174.0/examples/jsm/libs/${path}`;
+        }
+      }
+    ).then(function (AmmoLib) {
       globalThis['Ammo'] = AmmoLib;
       init();
       needToDispose({

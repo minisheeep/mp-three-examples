@@ -34,7 +34,15 @@ const exampleInfo = {
     let armMovement = 0;
     let Ammo;
 
-    AmmoLib.call({}).then(function (AmmoLib) {
+    AmmoLib.call(
+      {},
+      {
+        // 仅 web 环境需要这个，小程序会自动配置 wasm 地址
+        locateFile(path) {
+          return `https://cdn.jsdelivr.net/npm/three@0.174.0/examples/jsm/libs/${path}`;
+        }
+      }
+    ).then(function (AmmoLib) {
       Ammo = AmmoLib;
       init();
     });

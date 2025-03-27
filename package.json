@@ -1,6 +1,6 @@
 {
   "name": "@minisheeep/mp-three-examples",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "three.js examples for mini-program",
   "author": "minisheep",
   "type": "module",
