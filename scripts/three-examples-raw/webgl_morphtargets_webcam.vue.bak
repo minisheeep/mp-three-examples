@@ -124,7 +124,7 @@ const exampleInit = (({ window, canvas, GUI, Stats, needToDispose, useFrame }) =
 			const eyeRotationLimit = THREE.MathUtils.degToRad( 30 );
 
 			const ktx2Loader = new KTX2Loader()
-				.setTranscoderPath( 'jsm/libs/basis/' )
+				.setTranscoderPath( 'https://cdn.jsdelivr.net/npm/three@0.174.0/examples/jsm/libs/basis/' )
 				.detectSupport( renderer );
 
 			new GLTFLoader()

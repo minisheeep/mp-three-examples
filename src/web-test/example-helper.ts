@@ -148,8 +148,8 @@ export function useThreeExample(
         return Promise.resolve('');
       },
       DecoderPath: {
-        GLTF: 'https://oss.minisheep.cn/three-assets/libs/draco/gltf/',
-        STANDARD: 'https://oss.minisheep.cn/three-assets/libs/draco/'
+        GLTF: 'https://cdn.jsdelivr.net/npm/three@0.174.0/examples/jsm/libs/draco/gltf/',
+        STANDARD: 'https://cdn.jsdelivr.net/npm/three@0.174.0/examples/jsm/libs/draco/'
       },
 
       withCDNPrefix(path) {

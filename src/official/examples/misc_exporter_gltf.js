@@ -445,7 +445,7 @@ const exampleInfo = {
       // Exporting compressed textures and meshes (KTX2 / Draco / Meshopt)
       // ---------------------------------------------------------------------
       const ktx2Loader = new KTX2Loader()
-        .setTranscoderPath('jsm/libs/basis/')
+        .setTranscoderPath('https://cdn.jsdelivr.net/npm/three@0.174.0/examples/jsm/libs/basis/')
         .detectSupport(renderer);
 
       const gltfLoader = new GLTFLoader().setPath('models/gltf/');

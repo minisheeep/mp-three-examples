@@ -49,7 +49,9 @@ const exampleInfo = {
 
       const loader = new Rhino3dmLoader();
       //generally, use this for the Library Path: https://cdn.jsdelivr.net/npm/rhino3dm@8.0.1
-      loader.setLibraryPath('jsm/libs/rhino3dm/');
+      loader.setLibraryPath(
+        'https://cdn.jsdelivr.net/npm/three@0.174.0/examples/jsm/libs/rhino3dm/'
+      );
       loader.load(
         'models/3dm/Rhino_Logo.3dm',
         function (object) {

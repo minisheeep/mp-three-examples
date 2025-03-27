@@ -55,7 +55,9 @@ const exampleInfo = {
       //
 
       const ktx2Loader = new KTX2Loader();
-      ktx2Loader.setTranscoderPath('jsm/libs/basis/');
+      ktx2Loader.setTranscoderPath(
+        'https://cdn.jsdelivr.net/npm/three@0.174.0/examples/jsm/libs/basis/'
+      );
       ktx2Loader.detectSupport(renderer);
 
       ktx2Loader.load('textures/spiritedaway.ktx2', function (texturearray) {

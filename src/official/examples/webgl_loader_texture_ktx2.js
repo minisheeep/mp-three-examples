@@ -94,7 +94,9 @@ const exampleInfo = {
       const mesh = new THREE.Mesh(geometry, material);
       scene.add(mesh);
 
-      loader = new KTX2Loader().setTranscoderPath('jsm/libs/basis/').detectSupport(renderer);
+      loader = new KTX2Loader()
+        .setTranscoderPath('https://cdn.jsdelivr.net/npm/three@0.174.0/examples/jsm/libs/basis/')
+        .detectSupport(renderer);
 
       const gui = new GUI();
 

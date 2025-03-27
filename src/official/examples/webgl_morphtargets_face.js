@@ -39,7 +39,7 @@ const exampleInfo = {
       renderer.toneMapping = THREE.ACESFilmicToneMapping;
 
       const ktx2Loader = new KTX2Loader()
-        .setTranscoderPath('jsm/libs/basis/')
+        .setTranscoderPath('https://cdn.jsdelivr.net/npm/three@0.174.0/examples/jsm/libs/basis/')
         .detectSupport(renderer);
       new GLTFLoader()
         .setKTX2Loader(ktx2Loader)
