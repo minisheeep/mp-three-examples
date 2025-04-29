@@ -5,4 +5,4 @@
 ## 微信小程序
 
 小程序详情可扫码查看
-<img src="./public/mp-wechat.png" width="300" alt="mp-wechat"/>
+<img src="./public/mp-wechat1.png" width="300" alt="mp-wechat"/>
