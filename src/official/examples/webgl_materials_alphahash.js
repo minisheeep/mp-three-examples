@@ -9,7 +9,7 @@ import { OutputPass } from 'three/examples/jsm/postprocessing/OutputPass.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_materials_alphahash',
-  useLoaders: [],
+  useLoaders: {},
   info: [],
   init: ({ window, canvas, GUI, Stats, needToDispose, useFrame }) => {
     let camera, scene, renderer, controls, stats, mesh, material;

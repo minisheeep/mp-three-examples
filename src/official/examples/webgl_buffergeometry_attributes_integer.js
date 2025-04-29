@@ -3,7 +3,7 @@ import * as THREE from 'three';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_buffergeometry_attributes_integer',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

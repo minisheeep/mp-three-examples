@@ -5,7 +5,7 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_geometry_extrude_splines',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

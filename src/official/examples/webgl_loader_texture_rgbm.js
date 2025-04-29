@@ -4,7 +4,7 @@ import { RGBMLoader } from 'three/examples/jsm/loaders/RGBMLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_texture_rgbm',
-  useLoaders: [RGBMLoader],
+  useLoaders: { RGBMLoader },
   info: [
     [
       {

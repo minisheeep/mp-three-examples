@@ -5,7 +5,7 @@ import { VTKLoader } from 'three/examples/jsm/loaders/VTKLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_vtk',
-  useLoaders: [VTKLoader],
+  useLoaders: { VTKLoader },
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

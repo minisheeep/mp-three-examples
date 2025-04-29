@@ -4,7 +4,7 @@ import { UVsDebug } from 'three/examples/jsm/utils/UVsDebug.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'misc_uv_tests',
-  useLoaders: [],
+  useLoaders: {},
   canvasType: '2d',
   canvasStyle: {
     width: '90vmin',

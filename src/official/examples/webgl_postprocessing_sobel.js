@@ -9,7 +9,7 @@ import { SobelOperatorShader } from 'three/examples/jsm/shaders/SobelOperatorSha
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_postprocessing_sobel',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

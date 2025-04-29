@@ -7,7 +7,7 @@ import { HalftonePass } from 'three/examples/jsm/postprocessing/HalftonePass.js'
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_postprocessing_rgb_halftone',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

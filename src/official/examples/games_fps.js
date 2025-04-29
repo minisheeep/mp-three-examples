@@ -6,7 +6,7 @@ import { Capsule } from 'three/examples/jsm/math/Capsule.js';
 
 const exampleInfo = {
   name: 'games_fps',
-  useLoaders: [GLTFLoader],
+  useLoaders: { GLTFLoader },
   needArrowControls: true,
   info: [
     [

@@ -4,7 +4,7 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_morphtargets',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

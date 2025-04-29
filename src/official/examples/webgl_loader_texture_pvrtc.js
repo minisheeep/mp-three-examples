@@ -4,7 +4,7 @@ import { PVRLoader } from 'three/examples/jsm/loaders/PVRLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_texture_pvrtc',
-  useLoaders: [PVRLoader],
+  useLoaders: { PVRLoader },
   info: [
     [
       {

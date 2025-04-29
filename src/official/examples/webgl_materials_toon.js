@@ -7,7 +7,7 @@ import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_materials_toon',
-  useLoaders: [FontLoader],
+  useLoaders: { FontLoader },
   info: [
     [
       {

@@ -7,7 +7,7 @@ import { OutputPass } from 'three/examples/jsm/postprocessing/OutputPass.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_postprocessing_glitch',
-  useLoaders: [],
+  useLoaders: {},
   initAfterConfirm: {
     type: 'warning',
     text: ['这个例子可能会引发', '光敏性癫痫患者的癫痫发作']

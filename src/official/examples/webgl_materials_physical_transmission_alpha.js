@@ -6,7 +6,7 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_materials_physical_transmission_alpha',
-  useLoaders: [RGBELoader, GLTFLoader],
+  useLoaders: { RGBELoader, GLTFLoader },
   info: [
     [
       {

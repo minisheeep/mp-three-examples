@@ -11,7 +11,7 @@ import {
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_marchingcubes',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

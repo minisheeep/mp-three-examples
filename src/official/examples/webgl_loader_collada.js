@@ -4,7 +4,7 @@ import { ColladaLoader } from 'three/examples/jsm/loaders/ColladaLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_collada',
-  useLoaders: [ColladaLoader],
+  useLoaders: { ColladaLoader },
   info: [
     [
       {

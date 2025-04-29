@@ -5,7 +5,7 @@ import { GPUComputationRenderer } from 'three/examples/jsm/misc/GPUComputationRe
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_gpgpu_birds_gltf',
-  useLoaders: [GLTFLoader],
+  useLoaders: { GLTFLoader },
   info: [
     [
       {

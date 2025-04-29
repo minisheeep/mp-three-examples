@@ -3,7 +3,7 @@ import * as THREE from 'three';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webaudio_visualizer',
-  useLoaders: [],
+  useLoaders: {},
   initAfterConfirm: {
     text: ['注意音量']
   },

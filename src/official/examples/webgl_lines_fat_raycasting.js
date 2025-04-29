@@ -9,7 +9,7 @@ import { LineGeometry } from 'three/examples/jsm/lines/LineGeometry.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_lines_fat_raycasting',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

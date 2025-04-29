@@ -4,7 +4,7 @@ import { MapControls } from 'three/examples/jsm/controls/MapControls.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'misc_controls_map',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

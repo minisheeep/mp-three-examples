@@ -4,7 +4,7 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webaudio_timing',
-  useLoaders: [],
+  useLoaders: {},
   initAfterConfirm: {
     text: ['注意音量']
   },

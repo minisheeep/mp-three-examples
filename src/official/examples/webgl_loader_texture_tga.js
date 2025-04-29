@@ -5,7 +5,7 @@ import { TGALoader } from 'three/examples/jsm/loaders/TGALoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_texture_tga',
-  useLoaders: [TGALoader],
+  useLoaders: { TGALoader },
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

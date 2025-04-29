@@ -6,7 +6,7 @@ import { CSMHelper } from 'three/examples/jsm/csm/CSMHelper.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_shadowmap_csm',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

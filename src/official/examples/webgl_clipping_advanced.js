@@ -4,7 +4,7 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_clipping_advanced',
-  useLoaders: [],
+  useLoaders: {},
   info: [],
   init: ({ window, canvas, GUI, Stats, needToDispose, useFrame }) => {
     function planesFromMesh(vertices, indices) {

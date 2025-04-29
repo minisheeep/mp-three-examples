@@ -4,7 +4,7 @@ import { FlyControls } from 'three/examples/jsm/controls/FlyControls.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_lod',
-  useLoaders: [],
+  useLoaders: {},
   needArrowControls: true,
   info: [
     [

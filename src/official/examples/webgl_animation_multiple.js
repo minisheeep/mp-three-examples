@@ -5,7 +5,7 @@ import * as SkeletonUtils from 'three/examples/jsm/utils/SkeletonUtils.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_animation_multiple',
-  useLoaders: [GLTFLoader],
+  useLoaders: { GLTFLoader },
   info: [
     [
       {

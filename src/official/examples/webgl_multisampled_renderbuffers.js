@@ -6,7 +6,7 @@ import { OutputPass } from 'three/examples/jsm/postprocessing/OutputPass.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_multisampled_renderbuffers',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

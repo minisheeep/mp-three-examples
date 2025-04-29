@@ -5,7 +5,7 @@ import { JoltPhysics } from 'three/examples/jsm/physics/JoltPhysics.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'physics_jolt_instancing',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

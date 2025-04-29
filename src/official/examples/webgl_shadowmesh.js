@@ -4,7 +4,7 @@ import { ShadowMesh } from 'three/examples/jsm/objects/ShadowMesh.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_shadowmesh',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

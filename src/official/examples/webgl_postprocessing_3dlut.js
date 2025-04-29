@@ -13,7 +13,7 @@ import { LUTImageLoader } from 'three/examples/jsm/loaders/LUTImageLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_postprocessing_3dlut',
-  useLoaders: [GLTFLoader, RGBELoader, LUTCubeLoader, LUT3dlLoader, LUTImageLoader],
+  useLoaders: { GLTFLoader, RGBELoader, LUTCubeLoader, LUT3dlLoader, LUTImageLoader },
   info: [
     [
       {

@@ -7,7 +7,7 @@ import { OutputPass } from 'three/examples/jsm/postprocessing/OutputPass.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_materials_video',
-  useLoaders: [],
+  useLoaders: {},
   initAfterConfirm: {
     text: ['注意音量']
   },

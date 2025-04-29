@@ -5,7 +5,7 @@ import { TDSLoader } from 'three/examples/jsm/loaders/TDSLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_3ds',
-  useLoaders: [TDSLoader],
+  useLoaders: { TDSLoader },
   info: [
     [
       {

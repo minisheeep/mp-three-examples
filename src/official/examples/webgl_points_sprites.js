@@ -3,7 +3,7 @@ import * as THREE from 'three';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_points_sprites',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

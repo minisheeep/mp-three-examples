@@ -6,7 +6,7 @@ import { RectAreaLightUniformsLib } from 'three/examples/jsm/lights/RectAreaLigh
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_lights_rectarealight',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

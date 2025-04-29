@@ -11,7 +11,7 @@ import { OutputPass } from 'three/examples/jsm/postprocessing/OutputPass.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_postprocessing_gtao',
-  useLoaders: [GLTFLoader, DRACOLoader],
+  useLoaders: { GLTFLoader, DRACOLoader },
   info: [
     [
       {

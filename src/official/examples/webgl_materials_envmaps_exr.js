@@ -5,7 +5,7 @@ import { EXRLoader } from 'three/examples/jsm/loaders/EXRLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_materials_envmaps_exr',
-  useLoaders: [EXRLoader],
+  useLoaders: { EXRLoader },
   info: [
     [
       {

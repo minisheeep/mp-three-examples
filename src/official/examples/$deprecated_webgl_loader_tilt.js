@@ -5,7 +5,7 @@ import { TiltLoader } from 'three/examples/jsm/loaders/TiltLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_tilt',
-  useLoaders: [TiltLoader],
+  useLoaders: { TiltLoader },
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

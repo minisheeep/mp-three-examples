@@ -4,7 +4,7 @@ import { XYZLoader } from 'three/examples/jsm/loaders/XYZLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_xyz',
-  useLoaders: [XYZLoader],
+  useLoaders: { XYZLoader },
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

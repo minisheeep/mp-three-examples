@@ -5,7 +5,7 @@ import { RGBELoader } from 'three/examples/jsm/loaders/RGBELoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_pmrem_test',
-  useLoaders: [RGBELoader],
+  useLoaders: { RGBELoader },
   info: [
     [
       {

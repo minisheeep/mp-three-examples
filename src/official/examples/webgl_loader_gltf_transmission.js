@@ -7,7 +7,7 @@ import { DRACOLoader } from 'three/examples/jsm/loaders/DRACOLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_gltf_transmission',
-  useLoaders: [GLTFLoader, RGBELoader, DRACOLoader],
+  useLoaders: { GLTFLoader, RGBELoader, DRACOLoader },
   info: [
     [
       {

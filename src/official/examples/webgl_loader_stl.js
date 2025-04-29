@@ -4,7 +4,7 @@ import { STLLoader } from 'three/examples/jsm/loaders/STLLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_stl',
-  useLoaders: [STLLoader],
+  useLoaders: { STLLoader },
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

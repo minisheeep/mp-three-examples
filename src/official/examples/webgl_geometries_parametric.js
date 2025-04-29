@@ -6,7 +6,7 @@ import { ParametricGeometries } from 'three/examples/jsm/geometries/ParametricGe
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_geometries_parametric',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

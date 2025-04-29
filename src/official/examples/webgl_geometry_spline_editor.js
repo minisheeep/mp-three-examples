@@ -5,7 +5,7 @@ import { TransformControls } from 'three/examples/jsm/controls/TransformControls
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_geometry_spline_editor',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

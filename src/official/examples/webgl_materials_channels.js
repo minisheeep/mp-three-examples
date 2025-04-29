@@ -6,7 +6,7 @@ import { VelocityShader } from 'three/examples/jsm/shaders/VelocityShader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_materials_channels',
-  useLoaders: [OBJLoader],
+  useLoaders: { OBJLoader },
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

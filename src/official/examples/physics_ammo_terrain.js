@@ -5,7 +5,7 @@ import AmmoLib from 'three/examples/jsm/libs/ammo.wasm.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'physics_ammo_terrain',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

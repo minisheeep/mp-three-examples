@@ -5,7 +5,7 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_animation_skinning_additive_blending',
-  useLoaders: [GLTFLoader],
+  useLoaders: { GLTFLoader },
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

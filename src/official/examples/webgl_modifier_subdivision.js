@@ -5,7 +5,7 @@ import { LoopSubdivision } from 'three-subdivide';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_modifier_subdivision',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

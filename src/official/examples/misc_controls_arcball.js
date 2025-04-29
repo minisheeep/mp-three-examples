@@ -6,7 +6,7 @@ import { RGBELoader } from 'three/examples/jsm/loaders/RGBELoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'misc_controls_arcball',
-  useLoaders: [OBJLoader, RGBELoader],
+  useLoaders: { OBJLoader, RGBELoader },
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

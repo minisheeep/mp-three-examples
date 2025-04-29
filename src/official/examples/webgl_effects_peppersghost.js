@@ -4,7 +4,7 @@ import { PeppersGhostEffect } from 'three/examples/jsm/effects/PeppersGhostEffec
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_effects_peppersghost',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

@@ -85,7 +85,7 @@ export type VideoOptions = {
 /** 示例小程序中使用的一些配置 */
 export interface MiniProgramMeta {
   /** 用于统计加载相关信息 */
-  useLoaders: Loader[];
+  useLoaders: Record<string, Loader>;
   /** 通用 info */
   info: TagItem[][];
   /** 特殊 info */

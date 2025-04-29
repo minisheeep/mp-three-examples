@@ -6,7 +6,7 @@ import { VertexTangentsHelper } from 'three/examples/jsm/helpers/VertexTangentsH
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_helpers',
-  useLoaders: [GLTFLoader],
+  useLoaders: { GLTFLoader },
   info: [
     [
       {

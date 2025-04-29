@@ -4,7 +4,7 @@ import { TrackballControls } from 'three/examples/jsm/controls/TrackballControls
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_geometry_extrude_shapes',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

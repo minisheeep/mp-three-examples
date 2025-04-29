@@ -5,7 +5,7 @@ import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_materials_displacementmap',
-  useLoaders: [OBJLoader],
+  useLoaders: { OBJLoader },
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

@@ -4,7 +4,7 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_multiple_scenes_comparison',
-  useLoaders: [],
+  useLoaders: {},
   needSlider: {
     direction: 'vertical',
     initPosition: 50

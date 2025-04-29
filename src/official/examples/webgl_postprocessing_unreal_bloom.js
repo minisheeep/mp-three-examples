@@ -9,7 +9,7 @@ import { OutputPass } from 'three/examples/jsm/postprocessing/OutputPass.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_postprocessing_unreal_bloom',
-  useLoaders: [GLTFLoader],
+  useLoaders: { GLTFLoader },
   info: [
     [
       {

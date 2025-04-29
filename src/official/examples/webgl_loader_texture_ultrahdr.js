@@ -5,7 +5,7 @@ import { UltraHDRLoader } from 'three/examples/jsm/loaders/UltraHDRLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_texture_ultrahdr',
-  useLoaders: [UltraHDRLoader],
+  useLoaders: { UltraHDRLoader },
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

@@ -3,7 +3,7 @@ import * as THREE from 'three';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_materials_texture_filters',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

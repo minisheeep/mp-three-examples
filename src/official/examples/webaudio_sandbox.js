@@ -8,7 +8,7 @@ const exampleInfo = {
   initAfterConfirm: {
     text: ['注意音量']
   },
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

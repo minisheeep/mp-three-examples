@@ -6,7 +6,7 @@ import { VTKLoader } from 'three/examples/jsm/loaders/VTKLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_nrrd',
-  useLoaders: [NRRDLoader, VTKLoader],
+  useLoaders: { NRRDLoader, VTKLoader },
   info: [
     [
       {

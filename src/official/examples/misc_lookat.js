@@ -3,7 +3,7 @@ import * as THREE from 'three';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'misc_lookat',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

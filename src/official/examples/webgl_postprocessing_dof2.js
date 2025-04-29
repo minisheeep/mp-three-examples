@@ -4,7 +4,7 @@ import { BokehShader, BokehDepthShader } from 'three/examples/jsm/shaders/BokehS
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_postprocessing_dof2',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

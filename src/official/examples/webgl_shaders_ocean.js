@@ -6,7 +6,7 @@ import { Sky } from 'three/examples/jsm/objects/Sky.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_shaders_ocean',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

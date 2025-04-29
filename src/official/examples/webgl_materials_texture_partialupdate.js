@@ -3,7 +3,7 @@ import * as THREE from 'three';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_materials_texture_partialupdate',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

@@ -7,7 +7,7 @@ import { OutputPass } from 'three/examples/jsm/postprocessing/OutputPass.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_postprocessing_afterimage',
-  useLoaders: [],
+  useLoaders: {},
   info: [],
   init: ({ window, canvas, GUI, Stats, needToDispose, useFrame }) => {
     let camera, scene, renderer, composer;

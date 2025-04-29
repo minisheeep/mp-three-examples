@@ -7,7 +7,7 @@ import { MeshoptDecoder } from 'three/examples/jsm/libs/meshopt_decoder.module.j
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'misc_exporter_gltf',
-  useLoaders: [GLTFLoader, KTX2Loader],
+  useLoaders: { GLTFLoader, KTX2Loader },
   info: [
     [
       {

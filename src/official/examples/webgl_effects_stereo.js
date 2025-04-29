@@ -4,7 +4,7 @@ import { StereoEffect } from 'three/examples/jsm/effects/StereoEffect.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_effects_stereo',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

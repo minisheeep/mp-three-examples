@@ -5,7 +5,7 @@ import { FontLoader } from 'three/examples/jsm/loaders/FontLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_geometry_text_shapes',
-  useLoaders: [FontLoader],
+  useLoaders: { FontLoader },
   info: [
     [
       {

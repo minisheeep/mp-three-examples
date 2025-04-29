@@ -11,7 +11,7 @@ import { MeshPostProcessingMaterial } from 'three/examples/jsm/materials/MeshPos
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_postprocessing_material_ao',
-  useLoaders: [RGBELoader, PLYLoader],
+  useLoaders: { RGBELoader, PLYLoader },
   info: [
     [
       {

@@ -5,7 +5,7 @@ import { Water } from 'three/examples/jsm/objects/Water2.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_water_flowmap',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

@@ -5,7 +5,7 @@ import { TransformControls } from 'three/examples/jsm/controls/TransformControls
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'misc_controls_transform',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

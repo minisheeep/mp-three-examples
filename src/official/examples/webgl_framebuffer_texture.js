@@ -5,7 +5,7 @@ import * as GeometryUtils from 'three/examples/jsm/utils/GeometryUtils.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_framebuffer_texture',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

@@ -6,7 +6,7 @@ import Ammo from 'three/examples/jsm/libs/ammo.wasm.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'physics_ammo_instancing',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

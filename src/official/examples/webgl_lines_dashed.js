@@ -4,7 +4,7 @@ import * as GeometryUtils from 'three/examples/jsm/utils/GeometryUtils.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_lines_dashed',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

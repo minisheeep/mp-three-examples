@@ -5,7 +5,7 @@ import { MD2Character } from 'three/examples/jsm/misc/MD2Character.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_md2',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

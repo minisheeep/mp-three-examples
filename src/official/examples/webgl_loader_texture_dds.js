@@ -4,7 +4,7 @@ import { DDSLoader } from 'three/examples/jsm/loaders/DDSLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_texture_dds',
-  useLoaders: [DDSLoader],
+  useLoaders: { DDSLoader },
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

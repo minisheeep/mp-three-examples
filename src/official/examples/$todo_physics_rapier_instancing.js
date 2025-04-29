@@ -5,7 +5,7 @@ import { RapierPhysics } from 'three/examples/jsm/physics/RapierPhysics.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'physics_rapier_instancing',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

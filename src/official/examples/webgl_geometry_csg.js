@@ -5,7 +5,7 @@ import { SUBTRACTION, INTERSECTION, ADDITION, Brush, Evaluator } from 'three-bvh
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_geometry_csg',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

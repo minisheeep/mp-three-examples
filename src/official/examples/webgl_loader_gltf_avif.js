@@ -6,7 +6,7 @@ import { DRACOLoader } from 'three/examples/jsm/loaders/DRACOLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_gltf_avif',
-  useLoaders: [GLTFLoader, DRACOLoader],
+  useLoaders: { GLTFLoader, DRACOLoader },
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

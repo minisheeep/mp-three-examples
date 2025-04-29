@@ -8,7 +8,7 @@ import { LDrawConditionalLineMaterial } from 'three/examples/jsm/materials/LDraw
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_ldraw',
-  useLoaders: [LDrawLoader],
+  useLoaders: { LDrawLoader },
   info: [
     [
       {

@@ -4,7 +4,7 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_clipping',
-  useLoaders: [],
+  useLoaders: {},
   info: [],
   init: ({ window, canvas, GUI, Stats, needToDispose, useFrame }) => {
     let camera, scene, renderer, startTime, object, stats;

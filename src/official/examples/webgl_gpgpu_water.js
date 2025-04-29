@@ -5,7 +5,7 @@ import { SimplexNoise } from 'three/examples/jsm/math/SimplexNoise.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_gpgpu_water',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

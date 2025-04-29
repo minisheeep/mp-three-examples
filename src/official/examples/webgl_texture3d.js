@@ -6,7 +6,7 @@ import { VolumeRenderShader1 } from 'three/examples/jsm/shaders/VolumeShader.js'
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_texture3d',
-  useLoaders: [NRRDLoader],
+  useLoaders: { NRRDLoader },
   info: [
     [
       {

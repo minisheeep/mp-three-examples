@@ -5,7 +5,7 @@ import { VOXLoader, VOXData3DTexture } from 'three/examples/jsm/loaders/VOXLoade
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_volume_instancing',
-  useLoaders: [VOXLoader],
+  useLoaders: { VOXLoader },
   info: [
     [
       {

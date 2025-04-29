@@ -53,6 +53,7 @@ export default defineConfig(({ mode, command }) => {
       },
       rollupOptions: {
         output: {
+          // preserveModules:true,
           chunkFileNames: '[name].js'
           // manualChunks(id) {
           //   const normalizeId = normalizePath(id);

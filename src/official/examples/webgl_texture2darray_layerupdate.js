@@ -4,7 +4,7 @@ import { KTX2Loader } from 'three/examples/jsm/loaders/KTX2Loader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_texture2darray_layerupdate',
-  useLoaders: [KTX2Loader],
+  useLoaders: { KTX2Loader },
   info: [
     [
       {

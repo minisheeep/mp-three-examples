@@ -4,7 +4,7 @@ import * as GeometryUtils from 'three/examples/jsm/utils/GeometryUtils.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_lines_colors',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

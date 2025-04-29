@@ -5,7 +5,7 @@ import { DRACOExporter } from 'three/examples/jsm/exporters/DRACOExporter.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'misc_exporter_draco',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

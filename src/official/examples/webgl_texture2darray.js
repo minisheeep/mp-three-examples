@@ -4,7 +4,7 @@ import { unzipSync } from 'three/examples/jsm/libs/fflate.module.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_texture2darray',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

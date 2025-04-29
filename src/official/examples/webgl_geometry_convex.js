@@ -6,7 +6,7 @@ import * as BufferGeometryUtils from 'three/examples/jsm/utils/BufferGeometryUti
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_geometry_convex',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

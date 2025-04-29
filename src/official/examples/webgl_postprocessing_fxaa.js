@@ -8,7 +8,7 @@ import { FXAAShader } from 'three/examples/jsm/shaders/FXAAShader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_postprocessing_fxaa',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

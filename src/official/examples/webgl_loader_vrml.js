@@ -5,7 +5,7 @@ import { VRMLLoader } from 'three/examples/jsm/loaders/VRMLLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_vrml',
-  useLoaders: [VRMLLoader],
+  useLoaders: { VRMLLoader },
   info: [
     [
       {

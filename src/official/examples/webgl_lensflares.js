@@ -5,7 +5,7 @@ import { Lensflare, LensflareElement } from 'three/examples/jsm/objects/Lensflar
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_lensflares',
-  useLoaders: [],
+  useLoaders: {},
   needArrowControls: true,
   info: [
     [

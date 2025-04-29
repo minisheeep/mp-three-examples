@@ -11,7 +11,7 @@ import { FXAAShader } from 'three/examples/jsm/shaders/FXAAShader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_postprocessing_outline',
-  useLoaders: [OBJLoader],
+  useLoaders: { OBJLoader },
   info: [
     [
       {

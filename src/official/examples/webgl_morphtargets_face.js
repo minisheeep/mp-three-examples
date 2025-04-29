@@ -8,7 +8,7 @@ import { RoomEnvironment } from 'three/examples/jsm/environments/RoomEnvironment
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_morphtargets_face',
-  useLoaders: [GLTFLoader, KTX2Loader],
+  useLoaders: { GLTFLoader, KTX2Loader },
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

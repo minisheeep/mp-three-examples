@@ -6,7 +6,7 @@ import { VerticalBlurShader } from 'three/examples/jsm/shaders/VerticalBlurShade
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_shadow_contact',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

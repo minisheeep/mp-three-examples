@@ -5,7 +5,7 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_collada_skinning',
-  useLoaders: [ColladaLoader],
+  useLoaders: { ColladaLoader },
   info: [
     [
       {

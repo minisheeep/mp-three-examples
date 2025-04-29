@@ -5,7 +5,7 @@ import { PLYExporter } from 'three/examples/jsm/exporters/PLYExporter.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'misc_exporter_ply',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

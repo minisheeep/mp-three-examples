@@ -5,7 +5,7 @@ import { ImprovedNoise } from 'three/examples/jsm/math/ImprovedNoise.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_texture3d_partialupdate',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

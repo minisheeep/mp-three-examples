@@ -13,7 +13,7 @@ import {
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_renderer_pathtracer',
-  useLoaders: [RGBELoader, LDrawLoader],
+  useLoaders: { RGBELoader, LDrawLoader },
   info: [
     [
       {

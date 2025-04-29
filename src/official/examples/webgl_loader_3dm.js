@@ -5,7 +5,7 @@ import { Rhino3dmLoader } from 'three/examples/jsm/loaders/3DMLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_3dm',
-  useLoaders: [Rhino3dmLoader],
+  useLoaders: { Rhino3dmLoader },
   info: [
     [
       {

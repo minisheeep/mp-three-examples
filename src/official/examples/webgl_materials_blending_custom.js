@@ -6,7 +6,7 @@ const exampleInfo = {
   canvasStyle: {
     bgColor: 'black'
   },
-  useLoaders: [],
+  useLoaders: {},
   info: [],
   init: ({ window, canvas, GUI, Stats, needToDispose, useFrame }) => {
     let camera, scene, renderer;

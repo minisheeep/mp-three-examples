@@ -7,7 +7,7 @@ import { ProgressiveLightMap } from 'three/examples/jsm/misc/ProgressiveLightMap
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_shadowmap_progressive',
-  useLoaders: [GLTFLoader],
+  useLoaders: { GLTFLoader },
   info: [
     [
       {

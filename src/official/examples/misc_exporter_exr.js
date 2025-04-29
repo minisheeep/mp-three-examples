@@ -11,7 +11,7 @@ import { RGBELoader } from 'three/examples/jsm/loaders/RGBELoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'misc_exporter_exr',
-  useLoaders: [RGBELoader],
+  useLoaders: { RGBELoader },
   info: [
     [
       {

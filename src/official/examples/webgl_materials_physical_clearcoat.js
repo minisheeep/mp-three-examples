@@ -6,7 +6,7 @@ import { FlakesTexture } from 'three/examples/jsm/textures/FlakesTexture.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_materials_physical_clearcoat',
-  useLoaders: [HDRCubeTextureLoader],
+  useLoaders: { HDRCubeTextureLoader },
   info: [
     [
       {

@@ -9,7 +9,7 @@ import { DRACOLoader } from 'three/examples/jsm/loaders/DRACOLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_postprocessing_ssr',
-  useLoaders: [DRACOLoader],
+  useLoaders: { DRACOLoader },
   info: [
     [
       {

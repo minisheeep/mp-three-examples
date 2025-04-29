@@ -3,7 +3,7 @@ import * as THREE from 'three';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_read_float_buffer',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

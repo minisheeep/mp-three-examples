@@ -7,7 +7,7 @@ import * as BufferGeometryUtils from 'three/examples/jsm/utils/BufferGeometryUti
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_modifier_edgesplit',
-  useLoaders: [OBJLoader],
+  useLoaders: { OBJLoader },
   info: [
     [
       {

@@ -5,7 +5,7 @@ import * as BufferGeometryUtils from 'three/examples/jsm/utils/BufferGeometryUti
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_instancing_performance',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

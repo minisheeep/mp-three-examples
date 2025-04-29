@@ -4,7 +4,7 @@ import { DragControls } from 'three/examples/jsm/controls/DragControls.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'misc_controls_drag',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

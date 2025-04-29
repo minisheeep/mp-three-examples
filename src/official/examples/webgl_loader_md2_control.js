@@ -6,7 +6,7 @@ import { Gyroscope } from 'three/examples/jsm/misc/Gyroscope.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_md2_control',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

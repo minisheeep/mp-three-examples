@@ -4,7 +4,7 @@ import { ParallaxBarrierEffect } from 'three/examples/jsm/effects/ParallaxBarrie
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_effects_parallaxbarrier',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

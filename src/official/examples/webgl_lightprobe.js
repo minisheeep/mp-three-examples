@@ -5,7 +5,7 @@ import { LightProbeGenerator } from 'three/examples/jsm/lights/LightProbeGenerat
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_lightprobe',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

@@ -4,7 +4,7 @@ import { FirstPersonControls } from 'three/examples/jsm/controls/FirstPersonCont
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_geometry_dynamic',
-  useLoaders: [],
+  useLoaders: {},
   needArrowControls: true,
   info: [
     [

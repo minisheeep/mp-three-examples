@@ -8,7 +8,7 @@ import { CCDIKHelper, CCDIKSolver } from 'three/examples/jsm/animation/CCDIKSolv
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_animation_skinning_ik',
-  useLoaders: [GLTFLoader, DRACOLoader],
+  useLoaders: { GLTFLoader, DRACOLoader },
   info: [
     [
       {

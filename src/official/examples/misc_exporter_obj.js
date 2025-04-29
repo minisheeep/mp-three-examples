@@ -5,7 +5,7 @@ import { OBJExporter } from 'three/examples/jsm/exporters/OBJExporter.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'misc_exporter_obj',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

@@ -6,7 +6,7 @@ import { SimplifyModifier } from 'three/examples/jsm/modifiers/SimplifyModifier.
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_modifier_simplifier',
-  useLoaders: [GLTFLoader],
+  useLoaders: { GLTFLoader },
   info: [
     [
       {

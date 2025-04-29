@@ -3,7 +3,7 @@ import * as THREE from 'three';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_interactive_cubes_ortho',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

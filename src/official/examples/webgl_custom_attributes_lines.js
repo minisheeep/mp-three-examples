@@ -5,7 +5,7 @@ import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_custom_attributes_lines',
-  useLoaders: [FontLoader],
+  useLoaders: { FontLoader },
   info: [
     [
       {

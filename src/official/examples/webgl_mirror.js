@@ -5,7 +5,7 @@ import { Reflector } from 'three/examples/jsm/objects/Reflector.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_mirror',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

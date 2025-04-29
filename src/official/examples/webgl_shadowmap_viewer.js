@@ -5,7 +5,7 @@ import { ShadowMapViewer } from 'three/examples/jsm/utils/ShadowMapViewer.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_shadowmap_viewer',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

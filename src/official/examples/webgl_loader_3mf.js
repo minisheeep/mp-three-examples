@@ -5,7 +5,7 @@ import { ThreeMFLoader } from 'three/examples/jsm/loaders/3MFLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_3mf',
-  useLoaders: [ThreeMFLoader],
+  useLoaders: { ThreeMFLoader },
   info: [
     [
       {

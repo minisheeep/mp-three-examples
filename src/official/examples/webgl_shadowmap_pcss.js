@@ -5,7 +5,7 @@ import FRAGMENT from './webgl_shadowmap_pcss.frag';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_shadowmap_pcss',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

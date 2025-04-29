@@ -5,7 +5,7 @@ import { PCDLoader } from 'three/examples/jsm/loaders/PCDLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_pcd',
-  useLoaders: [PCDLoader],
+  useLoaders: { PCDLoader },
   info: [
     [
       {

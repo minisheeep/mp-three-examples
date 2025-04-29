@@ -4,7 +4,7 @@ import { TIFFLoader } from 'three/examples/jsm/loaders/TIFFLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_texture_tiff',
-  useLoaders: [TIFFLoader],
+  useLoaders: { TIFFLoader },
   info: [
     [
       {

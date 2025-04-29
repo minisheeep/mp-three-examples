@@ -5,7 +5,7 @@ import { GPUComputationRenderer } from 'three/examples/jsm/misc/GPUComputationRe
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_gpgpu_protoplanet',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

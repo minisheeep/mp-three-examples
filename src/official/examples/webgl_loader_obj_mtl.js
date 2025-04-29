@@ -6,7 +6,7 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_obj_mtl',
-  useLoaders: [MTLLoader, OBJLoader],
+  useLoaders: { MTLLoader, OBJLoader },
   info: [
     [
       {

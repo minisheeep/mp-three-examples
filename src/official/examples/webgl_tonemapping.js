@@ -6,7 +6,7 @@ import { RGBELoader } from 'three/examples/jsm/loaders/RGBELoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_tonemapping',
-  useLoaders: [GLTFLoader, RGBELoader],
+  useLoaders: { GLTFLoader, RGBELoader },
   info: [
     [
       {

@@ -6,7 +6,7 @@ import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_materials_subsurface_scattering',
-  useLoaders: [FBXLoader],
+  useLoaders: { FBXLoader },
   info: [
     [
       {

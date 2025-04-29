@@ -97,7 +97,7 @@ function transformSource(name, source) {
 /** @type {OfficialExampleInfo} */
 const exampleInfo =  {
   name: "${name}",
-  useLoaders: [${loaders}],
+  useLoaders: {${loaders}},
   info: ${JSON.stringify(info, null, 2)},
   init: ${initScene}
 }

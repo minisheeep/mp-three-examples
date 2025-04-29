@@ -4,7 +4,7 @@ import * as BufferGeometryUtils from 'three/examples/jsm/utils/BufferGeometryUti
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_custom_attributes_points3',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

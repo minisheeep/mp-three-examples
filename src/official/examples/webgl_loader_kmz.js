@@ -5,7 +5,7 @@ import { KMZLoader } from 'three/examples/jsm/loaders/KMZLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_kmz',
-  useLoaders: [KMZLoader],
+  useLoaders: { KMZLoader },
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

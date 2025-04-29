@@ -1,6 +1,6 @@
 {
   "name": "@minisheeep/mp-three-examples",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "three.js examples for mini-program",
   "author": "minisheep",
   "type": "module",
@@ -39,6 +39,7 @@
   "keywords": [],
   "license": "MIT",
   "packageManager": "pnpm@10.5.2",
+  "sideEffects": false,
   "lint-staged": {
     "*.{json}": [
       "prettier --write"
@@ -50,7 +51,8 @@
   },
   "peerDependencies": {
     "react": "^19.0.0",
-    "vue": "^3.4.3"
+    "vue": "^3.4.3",
+    "three": "*"
   },
   "peerDependenciesMeta": {
     "react": {
@@ -77,7 +79,7 @@
     "@types/lodash-es": "^4.17.12",
     "@types/node": "^22.13.10",
     "@types/stats.js": "^0.17.3",
-    "@types/three": "^0.174.0",
+    "@types/three": "^0.168.0",
     "@typescript-eslint/parser": "^8.26.1",
     "@vitejs/plugin-react": "^4.3.4",
     "@vitejs/plugin-vue": "^5.2.2",

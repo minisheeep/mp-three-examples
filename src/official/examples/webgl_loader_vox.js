@@ -5,7 +5,7 @@ import { VOXLoader, VOXMesh } from 'three/examples/jsm/loaders/VOXLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_vox',
-  useLoaders: [VOXLoader],
+  useLoaders: { VOXLoader },
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

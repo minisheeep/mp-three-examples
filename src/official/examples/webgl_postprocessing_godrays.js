@@ -11,7 +11,7 @@ import {
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_postprocessing_godrays',
-  useLoaders: [OBJLoader],
+  useLoaders: { OBJLoader },
   info: [
     [
       {

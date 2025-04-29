@@ -7,7 +7,7 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_animation_keyframes',
-  useLoaders: [GLTFLoader, DRACOLoader],
+  useLoaders: { GLTFLoader, DRACOLoader },
   info: [
     [
       {

@@ -7,7 +7,7 @@ import { Ammo } from 'three/examples/jsm/libs/ammo.wasm.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_mmd_audio',
-  useLoaders: [MMDLoader],
+  useLoaders: { MMDLoader },
   initAfterConfirm: {
     text: ['注意音量']
   },

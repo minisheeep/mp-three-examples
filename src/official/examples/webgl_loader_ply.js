@@ -4,7 +4,7 @@ import { PLYLoader } from 'three/examples/jsm/loaders/PLYLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_ply',
-  useLoaders: [PLYLoader],
+  useLoaders: { PLYLoader },
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

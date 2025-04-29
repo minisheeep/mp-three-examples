@@ -5,7 +5,7 @@ import { ImprovedNoise } from 'three/examples/jsm/math/ImprovedNoise.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_geometry_terrain',
-  useLoaders: [],
+  useLoaders: {},
   needArrowControls: true,
   info: [
     [

@@ -5,7 +5,7 @@ import { STLExporter } from 'three/examples/jsm/exporters/STLExporter.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'misc_exporter_stl',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

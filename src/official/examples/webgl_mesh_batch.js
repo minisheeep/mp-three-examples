@@ -5,7 +5,7 @@ import { radixSort } from 'three/examples/jsm/utils/SortUtils.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_mesh_batch',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

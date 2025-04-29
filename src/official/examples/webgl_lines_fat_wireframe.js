@@ -7,7 +7,7 @@ import { WireframeGeometry2 } from 'three/examples/jsm/lines/WireframeGeometry2.
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_lines_fat_wireframe',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

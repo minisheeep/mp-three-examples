@@ -6,7 +6,7 @@ import { USDZLoader } from 'three/examples/jsm/loaders/USDZLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_usdz',
-  useLoaders: [RGBELoader, USDZLoader],
+  useLoaders: { RGBELoader, USDZLoader },
   info: [
     [
       {

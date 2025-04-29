@@ -6,7 +6,7 @@ import { LottieLoader } from 'three/examples/jsm/loaders/LottieLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_texture_lottie',
-  useLoaders: [LottieLoader],
+  useLoaders: { LottieLoader },
   info: [
     [
       {

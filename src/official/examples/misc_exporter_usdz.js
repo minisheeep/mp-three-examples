@@ -7,7 +7,7 @@ import { USDZExporter } from 'three/examples/jsm/exporters/USDZExporter.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'misc_exporter_usdz',
-  useLoaders: [GLTFLoader],
+  useLoaders: { GLTFLoader },
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

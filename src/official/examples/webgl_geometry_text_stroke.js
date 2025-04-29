@@ -6,7 +6,7 @@ import { FontLoader } from 'three/examples/jsm/loaders/FontLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_geometry_text_stroke',
-  useLoaders: [SVGLoader, FontLoader],
+  useLoaders: { SVGLoader, FontLoader },
   info: [
     [
       {

@@ -5,7 +5,7 @@ import { LWOLoader } from 'three/examples/jsm/loaders/LWOLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_lwo',
-  useLoaders: [LWOLoader],
+  useLoaders: { LWOLoader },
   info: [
     [
       {

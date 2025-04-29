@@ -7,7 +7,7 @@ import { Ammo } from '@minisheep/three-platform-adapter/override/jsm/libs/ammo.w
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_mmd_pose',
-  useLoaders: [MMDLoader],
+  useLoaders: { MMDLoader },
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

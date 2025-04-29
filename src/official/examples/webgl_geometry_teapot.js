@@ -5,7 +5,7 @@ import { TeapotGeometry } from 'three/examples/jsm/geometries/TeapotGeometry.js'
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_geometry_teapot',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

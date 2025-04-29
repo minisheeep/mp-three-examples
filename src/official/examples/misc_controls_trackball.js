@@ -4,7 +4,7 @@ import { TrackballControls } from 'three/examples/jsm/controls/TrackballControls
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'misc_controls_trackball',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

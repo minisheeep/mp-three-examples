@@ -8,7 +8,7 @@ import { RoomEnvironment } from 'three/examples/jsm/environments/RoomEnvironment
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_gltf_compressed',
-  useLoaders: [KTX2Loader, GLTFLoader],
+  useLoaders: { KTX2Loader, GLTFLoader },
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

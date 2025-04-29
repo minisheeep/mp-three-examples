@@ -4,7 +4,7 @@ import { PLYLoader } from 'three/examples/jsm/loaders/PLYLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_materials_cubemap_refraction',
-  useLoaders: [PLYLoader],
+  useLoaders: { PLYLoader },
   info: [
     [
       {

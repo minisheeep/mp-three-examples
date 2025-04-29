@@ -5,7 +5,7 @@ import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_fbx_nurbs',
-  useLoaders: [FBXLoader],
+  useLoaders: { FBXLoader },
   info: [
     [
       {

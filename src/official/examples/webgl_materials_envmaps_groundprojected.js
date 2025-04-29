@@ -8,7 +8,7 @@ import { RGBELoader } from 'three/examples/jsm/loaders/RGBELoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_materials_envmaps_groundprojected',
-  useLoaders: [GLTFLoader, DRACOLoader, RGBELoader],
+  useLoaders: { GLTFLoader, DRACOLoader, RGBELoader },
   info: [
     [
       {

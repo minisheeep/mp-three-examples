@@ -5,7 +5,7 @@ import { SelectionBox } from 'three/examples/jsm/interactive/SelectionBox.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'misc_boxselection',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

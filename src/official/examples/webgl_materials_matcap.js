@@ -6,7 +6,7 @@ import { EXRLoader } from 'three/examples/jsm/loaders/EXRLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_materials_matcap',
-  useLoaders: [GLTFLoader, EXRLoader],
+  useLoaders: { GLTFLoader, EXRLoader },
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

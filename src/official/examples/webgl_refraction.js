@@ -6,7 +6,7 @@ import { WaterRefractionShader } from 'three/examples/jsm/shaders/WaterRefractio
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_refraction',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

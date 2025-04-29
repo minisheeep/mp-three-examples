@@ -3,7 +3,7 @@ import * as THREE from 'three';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'misc_animation_keys',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

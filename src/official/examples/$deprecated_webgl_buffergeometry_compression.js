@@ -7,7 +7,7 @@ import { TeapotGeometry } from 'three/examples/jsm/geometries/TeapotGeometry.js'
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_buffergeometry_compression',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

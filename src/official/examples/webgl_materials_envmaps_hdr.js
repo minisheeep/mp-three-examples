@@ -7,7 +7,7 @@ import { DebugEnvironment } from 'three/examples/jsm/environments/DebugEnvironme
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_materials_envmaps_hdr',
-  useLoaders: [HDRCubeTextureLoader, RGBMLoader],
+  useLoaders: { HDRCubeTextureLoader, RGBMLoader },
   info: [
     [
       {

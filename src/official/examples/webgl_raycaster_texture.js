@@ -3,7 +3,7 @@ import * as THREE from 'three';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_raycaster_texture',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

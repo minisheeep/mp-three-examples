@@ -11,7 +11,7 @@ import {
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_raycaster_bvh',
-  useLoaders: [FBXLoader],
+  useLoaders: { FBXLoader },
   info: [
     [
       {

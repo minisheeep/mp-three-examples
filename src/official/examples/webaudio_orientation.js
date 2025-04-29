@@ -6,7 +6,7 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webaudio_orientation',
-  useLoaders: [GLTFLoader],
+  useLoaders: { GLTFLoader },
   initAfterConfirm: {
     text: ['注意音量']
   },

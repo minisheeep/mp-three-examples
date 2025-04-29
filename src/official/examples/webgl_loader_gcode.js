@@ -5,7 +5,7 @@ import { GCodeLoader } from 'three/examples/jsm/loaders/GCodeLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_gcode',
-  useLoaders: [GCodeLoader],
+  useLoaders: { GCodeLoader },
   info: [
     [
       {

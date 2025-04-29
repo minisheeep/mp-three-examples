@@ -7,7 +7,7 @@ import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_shadowmap_performance',
-  useLoaders: [GLTFLoader, FontLoader],
+  useLoaders: { GLTFLoader, FontLoader },
   needArrowControls: true,
   info: [
     [

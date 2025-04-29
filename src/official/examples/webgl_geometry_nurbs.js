@@ -7,7 +7,7 @@ import { ParametricGeometry } from 'three/examples/jsm/geometries/ParametricGeom
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_geometry_nurbs',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       {

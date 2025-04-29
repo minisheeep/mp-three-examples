@@ -8,7 +8,7 @@ import Ammo from 'three/examples/jsm/libs/ammo.wasm.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_mmd',
-  useLoaders: [MMDLoader],
+  useLoaders: { MMDLoader },
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

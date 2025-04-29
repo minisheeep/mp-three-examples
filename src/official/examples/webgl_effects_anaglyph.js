@@ -4,7 +4,7 @@ import { AnaglyphEffect } from 'three/examples/jsm/effects/AnaglyphEffect.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_effects_anaglyph',
-  useLoaders: [],
+  useLoaders: {},
   info: [
     [
       { tag: 'a', link: 'https://threejs.org', content: 'three.js' },

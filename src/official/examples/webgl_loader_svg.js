@@ -5,7 +5,7 @@ import { SVGLoader } from 'three/examples/jsm/loaders/SVGLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_svg',
-  useLoaders: [SVGLoader],
+  useLoaders: { SVGLoader },
   info: [
     [
       {

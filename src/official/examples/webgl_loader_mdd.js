@@ -4,7 +4,7 @@ import { MDDLoader } from 'three/examples/jsm/loaders/MDDLoader.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_loader_mdd',
-  useLoaders: [MDDLoader],
+  useLoaders: { MDDLoader },
   info: [
     [
       {

@@ -6,7 +6,7 @@ import { Timer } from 'three/examples/jsm/misc/Timer.js';
 // /** @type {import("..").OfficialExampleInfo} */
 const exampleInfo = {
   name: 'webgl_morphtargets_sphere',
-  useLoaders: [GLTFLoader],
+  useLoaders: { GLTFLoader },
   info: [
     [
       {
